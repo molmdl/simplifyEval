@@ -91,4 +91,4 @@ Notes for Windows users:
 Notes for all:
 - Please adjust the PATH to conda env accordingly for the code to work properly.
 - Adjust other parameters, e.g. autobox distance as you need
-- For flexible ligands are always difficult to sample, you may increase num of modes or repeat a few times to sample a better pose. 
+- Flexible ligands are always difficult to sample, you may increase num of modes or repeat the docking a few times to sample a better pose. 
