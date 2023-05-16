@@ -55,33 +55,33 @@ installation and command-line usage.
       
 
 2. Contents
-2.0. README.txt
-2.1. doc
-    - instructions
-    - tutorials
-    - handouts
-2.2. script
-2.2.1. box-local
-    - provide a protein-ligand complex and evaluate them with the vina scoring function
-2.2.2. standard 
-    - provide receptors and ligands in two separated folders, and evaluate all the ligands in each of the receptors
-    - reference ligand must be provided to define the binding site
-    - also include scripts for virtual screening (pending)
+    - README.txt
+    - doc
+        - instructions
+        - tutorials
+        - handouts
+    - script
+    - box-local
+        - provide a protein-ligand complex and evaluate them with the vina scoring function
+    - standard 
+        - provide receptors and ligands in two separated folders, and evaluate all the ligands in each of the receptors
+        - reference ligand must be provided to define the binding site
+        - also include scripts for virtual screening (pending)
 
-(2.3. worked-example: to reduce download size, will be provided separately upon request)
-    (- example output files of demo 1-3 (tested on a Windows 10 2-in-1 tablet))
-(2.3.1. demo1-manual-fit-eval)
-    (- warm-up exercise for evaluating a set of manually-fitted complexes)
-(2.3.2. demo2-standard
-    (- example of the commonly adapted "standard" protocol of protein-ligand docking)
-(2.3.3. demo3-screening
-    (- simplified protocol of virtual screening)
+    - (worked-example: to reduce download size, will be provided separately upon request)
+        - (example output files of demo 1-3 (tested on a Windows 10 2-in-1 tablet))
+    - (demo1-manual-fit-eval)
+        - (warm-up exercise for evaluating a set of manually-fitted complexes)
+    - (demo2-standard)
+        - (example of the commonly adapted "standard" protocol of protein-ligand docking)
+    - (demo3-screening)
+        - (simplified protocol of virtual screening)
 
 3. Usage
-3.1 See the "doc/tutorial" directory for practical examples
-    - current version mainly supporting windows os
-    - limited support for unix (actually the bash scripts should work given that you know what you are doing)
-    - [demo for unix-based systems (linux and OS/X) is still work in progress.]
+    - See the "doc/tutorial" directory for practical examples
+        - current version mainly supporting windows os
+        - limited support for unix (actually the bash scripts should work given that you know what you are doing)
+        - [demo for unix-based systems (linux and OS/X) is still work in progress.]
 
 ---
 ## Usage
