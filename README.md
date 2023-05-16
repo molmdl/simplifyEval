@@ -6,7 +6,7 @@ A collection of double-click scripts and tutorial materials of a simplified work
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 [![License](https://img.shields.io/badge/License-BSD%203-lightgrey.svg)](https://opensource.org/license/bsd-3-clause/)
 
-Handouts and tutorial materials in this work is licensed under a
+<b>Handouts and tutorials</b> in this work is licensed under a
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
 
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
@@ -15,7 +15,7 @@ Handouts and tutorial materials in this work is licensed under a
 [cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
 [cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
 
-Code in this work is licensed under the BSD 3-Clause license.
+<b>Code</b> in this work is licensed under the <a href="https://opensource.org/license/bsd-3-clause/">BSD 3-Clause license</a>.
 
 ---
 ## Description 
