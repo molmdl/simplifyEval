@@ -2,10 +2,19 @@
 A collection of double-click scripts and tutorial materials of a simplified workflow of structure-based drug design. Utilizing Open-source PyMOL, OpenBabel and Smina installed via conda.
 
 ![Platform](https://img.shields.io/static/v1?label=platform&message=windows%20%7C%20macos%20%7C%20linux&color=informational)
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
+![License](https://img.shields.io/badge/License-BSD%203-lightgrey.svg)
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc/2.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/2.0/88x31.png" /></a><br />Handouts and tutorials in this work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/2.0/">Creative Commons Attribution-NonCommercial 2.0 Generic License</a>.
+Handouts and tutorial materials in this work is licensed under a
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
 
-The scripts use the BSD 3-Clause license.
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
+
+[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
+[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
+[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
+
+Code in this work is licensed under the BSD 3-Clause license.
 
 ---
 ## Description 
@@ -15,7 +24,7 @@ An early attempt of making a tutorial with simplified double-click scripts to in
 
 It wasn't a github repository so the directory structure is strange, it was just a folder that I throw random stuff into. I don't have the time to change the directory structure, but I may fix it upon request. 
 
-Codes are far from optimal and weren't tested throughly. I decide to provide it here on github in case someone found it useful, but it won't be frequently updated.
+Code is far from optimal and weren't tested throughly. I decide to provide it here on github in case someone found it useful, but it won't be frequently updated.
 
 The lazy version "box-local" was tested on Windows, Linux and Mac. 
 The std version is more useful but only tested on linux (partially on Windows 10)
