@@ -2,6 +2,7 @@
 A collection of double-click scripts and tutorial materials of a simplified workflow of structure-based drug design. Utilizing Open-source PyMOL, OpenBabel and Smina installed via conda.
 
 ![Platform](https://img.shields.io/static/v1?label=platform&message=windows%20%7C%20macos%20%7C%20linux&color=informational)
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fmolmdl%2FsimplifyEval&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 [![License](https://img.shields.io/badge/License-BSD%203-lightgrey.svg)](https://opensource.org/license/bsd-3-clause/)
 
