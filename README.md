@@ -1,5 +1,5 @@
 # SimplifyEval
-Set of double-click scripts and tutorial materials of a simplified workflow of structure-based drug design. Utilizing Open-source PyMOL, OpenBabel and Smina installed via a conda.
+Set of double-click scripts and tutorial materials of a simplified workflow of structure-based drug design. Utilizing Open-source PyMOL, OpenBabel and Smina installed via conda.
 
 ![Platform](https://img.shields.io/static/v1?label=platform&message=windows%20%7C%20macos%20%7C%20linux&color=informational)
 
