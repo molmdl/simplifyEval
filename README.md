@@ -3,7 +3,7 @@ A collection of double-click scripts and tutorial materials of a simplified work
 
 ![Platform](https://img.shields.io/static/v1?label=platform&message=windows%20%7C%20macos%20%7C%20linux&color=informational)
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
-![License](https://img.shields.io/badge/License-BSD%203-lightgrey.svg)
+[![License](https://img.shields.io/badge/License-BSD%203-lightgrey.svg)](https://opensource.org/license/bsd-3-clause/)
 
 Handouts and tutorial materials in this work is licensed under a
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
@@ -20,7 +20,7 @@ Code in this work is licensed under the BSD 3-Clause license.
 ## Description 
 An early attempt of making a tutorial with simplified double-click scripts to introduce molecular modelling to students from the experimental background who mainly use pymol. 
 
-<b> ! Tutorials and demos got a lot of typos and grammatical mistakes. I didn't have time to fix it. </b>
+<b> WARNING! Tutorials and demos got a lot of typos and grammatical mistakes. I didn't have time to fix it. </b>
 
 It wasn't a github repository so the directory structure is strange, it was just a folder that I throw random stuff into. I don't have the time to change the directory structure, but I may fix it upon request. 
 
