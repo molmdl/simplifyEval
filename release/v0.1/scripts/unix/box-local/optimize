@@ -1,0 +1,30 @@
+#!/usr/bin/env bash
+
+cd -- "$(dirname "$BASH_SOURCE")"
+
+# Assuming obminimize is in ~/.conda/envs/chemtools/bin
+obminimize=~/.conda/envs/chemtools/bin/obminimize
+
+if [[ ! -e "./ligand_opt" ]] ; then
+	mkdir ./ligand_opt
+fi
+
+if [[ ! -e 'list-lig.txt' ]] ; then
+	for f in `ls ./ligand/*.sdf` ; do
+		basename $f .sdf >> list-lig.txt
+	done
+	for l in `cat list-lig.txt` ; do
+		lig=$l
+		if [[ ! -e "./ligand_opt/${lig}_opt.pdb" ]] ; then
+			echo Optimizing molecular geometry of ${lig} ...
+			$obminimize -n 50000 -sd -ff MMFF94s ./ligand/${lig}.sdf > ./ligand_opt/${lig}_opt.pdb 2> /dev/null
+			echo Geometry optimization of ${lig} is done!
+		else
+			echo File ./ligand_opt/${lig}_opt.pdb already exists, skipping the entry.
+		fi
+	done
+	rm list-lig.txt
+else
+	echo list-lig.txt already exist!
+	echo Use dock_list.sh instead to evaluate a custom list of complexes.
+fi

@@ -1,0 +1,92 @@
+>>>>>>>>>>>>>>>>>>
+>> Release Plan <<
+>>>>>>>>>>>>>>>>>>
+Each of the released package should contain the following:
+    -> Copy of the current version of README and RELEASE-PLAN
+    -> "doc" folder containing "0-README-and-outline.docx", "tutorials/" and "handouts/"
+    -> "script" folder containg sub-directories with necessary script for the current release version
+    -> Provide the worked example separately to reduce package size?
+Plan of each release:
+    v0.1 -> Tutorials: windows demo with partial unix support, i.e. scripts ok no instructions for all
+            + installation instructions [done]
+            + exercise 1 [done]
+         -> Handouts:
+            + 0-README-AND-OUTLINE with progress table [done, continuously updating]
+            + 1-minimal-biochem [done]
+            + 2-molstruc-3D [done]
+            + 3-free-compchem-resources [done]
+            + 4-quick-eval-ex1-and-limit [done]
+            (+ feedback form)
+    v0.2 -> Tutorials: 
+            = all of the above
+            + exercise 2,3
+         -> Handouts:
+            = all of the above
+            + 5-common-workflow-ex2
+            + 6-virtual-screening-ex3
+    v0.3 -> all of the above 
+            + a working, tested solution for Unix users
+            (+ FAQ for Mac?)
+    v1.0 -> all of the above 
+            + preliminary feedback obtained
+            + Contents revised and proofread done
+    v1.5 -> extended, all of the above plus the MD materials
+    v2.0 -> extended, all of the above plus the QSAR materials
+    v?   -> pymol plugin? refer to optimize and vina plugin.
+
+>>>>>>>>>>>>>>>
+>> TODO list <<
+>>>>>>>>>>>>>>>
+
+Scripts, tutorials and worked exmples
+    -> Win10 version demo 1-3
+        - installation instructions and convert to pdf [done]
+        - demo 1 and convert to pdf [done]
+        - scripts for demo 2 [done]
+        - demo 2 doc and convert to pdf
+        - scripts for demo 3
+        - demo 3 doc and convert to pdf
+        - cleanup README
+        - cleanup and packing v0.2
+
+    -> TBD replace ligand i/o pdb with sdf for keeping bond order and direct usage molecule files downloaded form molecular databases
+        - smina scripts (demo 2) [done]
+        - smina scripts (demo 1) [leave it]
+        - worked example (demo 1)[leave it]
+        - demo docs (demo 1)[leave it]
+        - demo docs graphics (demo 1)[leave it]
+
+    -> Unix version demo 1-3: combine the demo of differenc OS into the same doc?
+        - test with spgpu for linux?
+        - installation instructions and convert to pdf [somehow finished, combined with windows doc]
+        - demo 1 and convert to pdf
+        - scripts for demo 2
+        - demo 2 doc and convert to pdf
+        - scripts for demo 3
+        - demo 3 doc and convert to pdf
+        - cleanup README
+        - cleanup and packing v0.3
+        - ask others to test on OSX?
+
+Handouts
+    -> General
+        - update the new outline and links
+        - finish the handouts and modules for the flexible workshop
+        - proofread the contents 
+    -> For v0.1 +
+        - Item 0, 1, 2 [done]
+        - Item 3 [done]
+        - Item 4 [done]
+    -> For v0.2 +
+    -> For v0.3 +
+    -> For v1.0 +
+
+==============
+Future work:
+- draft the MD handout and demo. (local install or online?)
+  - e.g. my prev tested workflow of charmm-gui to gmx windows double-click script
+  - or Galaxy platform for online GPU resource?
+  - or jupyter notebook using google colab resources?
+- draft the QSAR handout
+  - point to teachopencadd directly?
+- make the simplified workflow a PyMOL plugin?
