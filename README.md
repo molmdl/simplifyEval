@@ -5,12 +5,18 @@ Set of scripts and tutorial materials of a simplified workflow of structure-base
 ## Description 
 An early attempt of making a tutorial with simplified double-click scripts to introduce molecular modelling to students from the experimental background who mainly use pymol. 
 
+!! Tutorials and demos got a lot of typos and grammatical mistakes. I didn't have time to fix it.
+
 It wasn't a github repository so the directory structure is strange, it was just a folder that I throw random stuff into. I don't have the time to change the directory structure, but I may fix it upon request. 
 
 Codes are far from optimal and weren't tested throughly. I decide to provide it here on github in case someone found it useful, but it won't be frequently updated.
 
 The lazy version "box-local" was tested on Windows, Linux and Mac. 
-The std version is more useful but only tested on linux (partially on Windows?)
+The std version is more useful but only tested on linux (partially on Windows 10)
+
+---
+## Usage
+Only the scripts in "release/v0.1" have been tested on all major platforms. Installation instructions can be found in "release/v0.1/doc".
 
 ---
 ## Contents in "release/v0.1" folder
