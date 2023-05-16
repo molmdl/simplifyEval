@@ -52,27 +52,6 @@ installation and command-line usage.
       same python environment for the Optimize plugin to work. In that case, you only need to install smina. 
       You may still want to create a new conda enviroment so that smina can use a compatible version of python and
       openbabel without conflicting the openbabel already in your system.
-      
-
-2. Contents
-    - README.txt
-    - doc
-        - instructions
-        - tutorials
-        - handouts
-    - script
-        - box-local
-            - provide a protein-ligand complex and evaluate them with the vina scoring function
-        - standard 
-            - provide receptors and ligands in two separated folders, and evaluate all the ligands in each of the receptors
-            - reference ligand must be provided to define the binding site
-            - also include scripts for virtual screening (pending)
-
-3. Usage
-    - See the "doc/tutorial" directory for practical examples
-        - current version mainly supporting windows os
-        - limited support for unix (actually the bash scripts should work given that you know what you are doing)
-        - [demo for unix-based systems (linux and OS/X) is still work in progress.]
 
 ---
 ## Usage
