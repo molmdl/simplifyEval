@@ -5,7 +5,7 @@ A collection of double-click scripts and tutorial materials of a simplified work
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/2.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/2.0/88x31.png" /></a><br />Handouts and tutorials in this work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/2.0/">Creative Commons Attribution-NonCommercial 2.0 Generic License</a>.
 
-The scripts use the BSD license.
+The scripts use the BSD 3-Clause license.
 
 ---
 ## Description 
