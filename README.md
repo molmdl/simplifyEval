@@ -86,7 +86,7 @@ Issues on Mac:
 Open-source version of pymol from conda has issues with calling the plugin gui on Mac, hence providing an additional script for the optimize function.
 
 Notes for Windows users:
-- Pymol optimize plugin gui has a bug to clash as the window being manually resized. Use the maximize button instead.
+- Pymol optimize plugin gui has a bug, it crashes as the plugin window being manually resized. Use the maximize button instead.
 
 Notes for all:
 - Please adjust the PATH to conda env accordingly for the code to work properly.
