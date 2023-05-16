@@ -61,21 +61,12 @@ installation and command-line usage.
         - tutorials
         - handouts
     - script
-    - box-local
-        - provide a protein-ligand complex and evaluate them with the vina scoring function
-    - standard 
-        - provide receptors and ligands in two separated folders, and evaluate all the ligands in each of the receptors
-        - reference ligand must be provided to define the binding site
-        - also include scripts for virtual screening (pending)
-
-    - (worked-example: to reduce download size, will be provided separately upon request)
-        - (example output files of demo 1-3 (tested on a Windows 10 2-in-1 tablet))
-    - (demo1-manual-fit-eval)
-        - (warm-up exercise for evaluating a set of manually-fitted complexes)
-    - (demo2-standard)
-        - (example of the commonly adapted "standard" protocol of protein-ligand docking)
-    - (demo3-screening)
-        - (simplified protocol of virtual screening)
+        - box-local
+            - provide a protein-ligand complex and evaluate them with the vina scoring function
+        - standard 
+            - provide receptors and ligands in two separated folders, and evaluate all the ligands in each of the receptors
+            - reference ligand must be provided to define the binding site
+            - also include scripts for virtual screening (pending)
 
 3. Usage
     - See the "doc/tutorial" directory for practical examples
