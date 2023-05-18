@@ -19,7 +19,9 @@ A collection of double-click scripts and tutorial materials of a simplified work
 
 ---
 ## Description 
-An early attempt of making a tutorial with simplified double-click scripts to introduce molecular modelling to students from the experimental background who mainly use pymol. 
+Many students who lack computational background love double-clickers. Whenever they see an icon, they double-click it. If the double-click action does not open a new window, they lost 50% of their motivation. If they found that it is a command-line program, they lost 90% of their motivation.
+
+This is a prelimary attempt of making a tutorial with simplified double-click scripts to introduce molecular modelling to students from the experimental background who mainly use pymol. 
 
 <b> WARNING! Tutorials and demos got a lot of typos and grammatical mistakes. I didn't have time to fix it. </b>
 
